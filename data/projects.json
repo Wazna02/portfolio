@@ -1,0 +1,6 @@
+[
+  {"title":"Student Performance Predictor","tag":"AI","c1":"#5B4BDB","c2":"#0E9F8E","text":"A machine learning model that predicts exam outcomes from study habits, with a clear notebook that explains each step.","stack":["Python","Scikit-learn","Pandas"],"link":"https://github.com/Wazna02"},
+  {"title":"Campus Event Hub","tag":"Web","c1":"#D6336C","c2":"#5B4BDB","text":"A React and Node.js app where students browse events, register and see updates in one place.","stack":["React","Node.js","MySQL"],"link":"https://github.com/Wazna02"},
+  {"title":"Campus LAN Design","tag":"Networking","c1":"#0E9F8E","c2":"#1C7ED6","text":"A multi-department network built and tested in Cisco Packet Tracer, with VLANs, routing and documented troubleshooting steps.","stack":["Cisco Packet Tracer","Routing","VLANs"],"link":""},
+  {"title":"Insights Dashboard","tag":"Data","c1":"#F08C00","c2":"#D6336C","text":"An interactive Power BI dashboard that turns a raw dataset into trends a non-technical reader can act on.","stack":["Power BI","SQL","Pandas"],"link":""}
+]
