@@ -15,7 +15,7 @@ npm start              # http://localhost:3000
 
 ## Customise
 - **Profile picture:** save it as `public/images/profile.jpg` (square, ~800x800 px).
-- **Projects:** edit `data/projects.json` (`tag` is AI, Web, Networking or Data; leave `link` empty to hide the button).
+- **Projects:** edit `data/projects.json` (`tag` can be any word (it becomes a filter button); `demo` is optional; leave `link` empty to hide the button).
 - **Text and styles:** `public/index.html`, `public/css/style.css`.
 
 ## Deploy

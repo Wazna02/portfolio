@@ -3,7 +3,7 @@ try{PROJECTS=await(await fetch("/api/projects")).json()}catch(e){console.error("
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const tags=["All",...new Set(PROJECTS.map(p=>p.tag))];
 const fEl=document.getElementById("filters"),pEl=document.getElementById("proj");
-pEl.innerHTML=PROJECTS.map(p=>`<article class="card" data-tag="${esc(p.tag)}"><div class="thumb" style="--c1:${p.c1};--c2:${p.c2}">${esc(p.tag)}</div><div class="in"><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><div class="chips">${p.stack.map(s=>`<span>${esc(s)}</span>`).join("")}</div>${p.link?`<a class="lnk" href="${esc(p.link)}" target="_blank" rel="noopener">View project</a>`:""}</div></article>`).join("");
+pEl.innerHTML=PROJECTS.map(p=>`<article class="card" data-tag="${esc(p.tag)}"><div class="thumb" style="--c1:${p.c1};--c2:${p.c2}">${esc(p.tag)}</div><div class="in"><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><div class="chips">${p.stack.map(s=>`<span>${esc(s)}</span>`).join("")}</div><div class="links">${p.demo?`<a class="lnk" href="${esc(p.demo)}" target="_blank" rel="noopener">Live demo</a>`:""}${p.link?`<a class="lnk" href="${esc(p.link)}" target="_blank" rel="noopener">${p.demo?"Code":"View on GitHub"}</a>`:""}</div></div></article>`).join("");
 fEl.innerHTML=tags.map((t,i)=>`<button type="button" aria-pressed="${i==0}" data-t="${esc(t)}">${esc(t)}</button>`).join("");
 fEl.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
  fEl.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));

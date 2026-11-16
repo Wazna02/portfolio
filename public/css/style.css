@@ -92,3 +92,4 @@ footer{border-top:1px solid var(--line);padding:22px;text-align:center;color:var
 .cform .hp{position:absolute;left:-9999px}
 #status{min-height:1.5em;font-weight:500}
 #status.err{color:#D6336C}#status.ok{color:var(--accent2)}
+.card .links{display:flex;gap:18px}
