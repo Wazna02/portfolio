@@ -8,6 +8,18 @@ This portfolio is a space where I showcase my projects, technical skills, experi
 
 My goal is to turn ideas into functional applications, strengthen my technical abilities, and continuously learn through hands-on development.
 
+<p align="center">   <a href="https://portfolio-pg7n.onrender.com">     <img src="https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-8A2BE2?style=for-the-badge&logo=render&logoColor=white" alt="Visit Live Portfolio">   </a>   <a href="https://github.com/Wazna02/portfolio">     <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository">   </a> </p>
+
+Welcome to my personal portfolio!
+
+I'm Fathima Wazna, an aspiring technology professional with a growing interest in software development, Artificial Intelligence, and building practical technology-driven solutions.
+
+This portfolio showcases my projects, technical skills, experiments, and learning journey.
+
+🌐 Live Website: https://portfolio-pg7n.onrender.com
+
+💻 GitHub Repository: https://github.com/Wazna02/portfolio 
+
 ---
 
 ## ✨ About This Portfolio
